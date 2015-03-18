@@ -1,5 +1,5 @@
 # OpenExpo
-CalcoloRitardiLotti
+__________CalcoloRitardiLotti_______________
 
 Questo codice esegue le seguenti cose:
 
@@ -19,4 +19,8 @@ Per far funzionare il tutto è necessario includere nel progetto le seguenti lib
 	- httpcore-4.3.2 o superiore
 
 NOTA: I file vengono generati nella directory dell'eseguibile
+
+____________OpenDataExtractor________________
+
+Questo codice esegue una query su uno qualsiasi dei dataset di OpenExpo, in base ad un parametro di ricerca fornito.
 
