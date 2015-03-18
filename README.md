@@ -23,4 +23,5 @@ NOTA: I file vengono generati nella directory dell'eseguibile
 ____________OpenDataExtractor________________
 
 Questo codice esegue una query su uno qualsiasi dei dataset di OpenExpo, in base ad un parametro di ricerca fornito.
+Per il corretto funzionamento è necessario includere  la classe fornita "TypeFields.java" presente in repo.
 
