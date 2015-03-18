@@ -1,5 +1,5 @@
-/*
-		   ************Copyright**************
+package FunzioniSuOpenData;
+/*		   ************Copyright**************
 
 
     This software is free software: you can redistribute it and/or modify
@@ -92,10 +92,10 @@ public class CalcoloRitardiLotti {
 						countInCorso++;
 					else if(stato.contains("Verifiche"))
 						countVerifica++;
-					else if(stato.contains("Collaudo"))
-						countCollaudo++;
-					else
+					else if(stato.contains("Collaudo sospeso") || stato.contains("sospeso"))
 						countSospesi++;
+					else
+						countCollaudo++;
 					
 					
 					if(!temp.getString("STATO").equals("Concluso") && temp2.getTime()<current.getTime())
