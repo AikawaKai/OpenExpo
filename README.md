@@ -22,6 +22,16 @@ Per far funzionare il tutto è necessario includere nel progetto le seguenti lib
 
 NOTA: I file vengono generati nella directory dell'eseguibile
 
+PER COMPILARE & ESEGUIRE:
+
+javac -cp "Lib/*" CalcoloRitardiLotti.java
+
+ed eseguire
+
+java -cp "Lib/*:."  CalcoloRitardiLotti
+
+Tutto nella dir del progetto!
+
 ____________OpenDataExtractor________________
 
 Questo codice esegue una query su uno qualsiasi dei dataset di OpenExpo, in base ad un parametro di ricerca fornito.
