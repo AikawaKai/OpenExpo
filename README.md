@@ -14,6 +14,8 @@ Per far funzionare il tutto è necessario includere nel progetto le seguenti lib
 
 	- org.json
 	- org.jfreechart
+	- commons-io-2.4.jar
+	- commons-logging-1.1.3
 	- jcommon-1.0.23 o superiore
 	- httpclient-4.3.4 o superiore
 	- httpcore-4.3.2 o superiore
