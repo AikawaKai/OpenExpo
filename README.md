@@ -10,7 +10,7 @@ b)genera un'istogramma, calcolato a runtime in base al giorno corrente, degli at
 c) un grafico a torta dello stato dei lavori (concluso, in corso, in verifica, sospeso), sempre generato runtime, in base al giorno. Questa vista è gia presente nella vista del cruscotto del portale. (E' stata un po' una verifica di correttezza dei dati mostrati...)
 
 ATTENZIONE:
-Per far funzionare il tutto è necessario includere nel progetto le seguenti librerie:
+Per far funzionare il tutto è necessario includere nel progetto le seguenti librerie(presenti nella cartella lib nella repo):
 
 	- org.json
 	- org.jfreechart
